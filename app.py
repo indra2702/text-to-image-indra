@@ -10,7 +10,7 @@ st.title("🎨 Text → Image (mini DALL·E)")
 st.markdown("Enter a prompt and generate an image (model runs on Hugging Face Inference API).")
 
 # --- CONFIG: change model_id if you prefer another text-to-image model ---
-MODEL_ID = "runwayml/stable-diffusion-v1-5"  # <- change to any text-to-image model ID if you want
+MODEL_ID = "stabilityai/stable-diffusion-2-1" # <- change to any text-to-image model ID if you want
 
 # read HF token from Streamlit secrets
 try:
