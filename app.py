@@ -7,7 +7,7 @@ st.set_page_config(page_title="Text → Image Generator", layout="wide")
 st.title("🎨 Text → Image (mini DALL·E)")
 st.markdown("Enter a prompt and generate an image (powered by Hugging Face API).")
 
-MODEL_ID = "stabilityai/stable-diffusion-2-1"
+MODEL_ID = "runwayml/stable-diffusion-v1-5"
 
 try:
     HF_TOKEN = st.secrets["HF_TOKEN"]
